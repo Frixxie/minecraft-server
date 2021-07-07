@@ -1,0 +1,67 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 7/7/21, 12:44 PM
+Description: Exception in server tick loop
+
+java.lang.OutOfMemoryError: Java heap space
+	at cnd.a(SourceFile:228)
+	at cni.a(SourceFile:260)
+	at abe.a(SourceFile:685)
+	at abe.e(SourceFile:390)
+	at abe$$Lambda$4364/0x0000000801472d70.accept(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at abe.a(SourceFile:387)
+	at abp.a(SourceFile:307)
+	at abr.a(SourceFile:706)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:587)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:852)
+	at net.minecraft.server.MinecraftServer.x(SourceFile:692)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:274)
+	at net.minecraft.server.MinecraftServer$$Lambda$3867/0x000000080136e810.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.17
+	Minecraft Version ID: 1.17
+	Operating System: Linux (amd64) version 5.4.0-77-generic
+	Java Version: 16.0.1, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Private Build
+	Memory: 1569800 bytes (1 MiB) / 522190848 bytes (498 MiB) up to 522190848 bytes (498 MiB)
+	CPUs: 2
+	Processor Vendor: GenuineIntel
+	Processor Name: Common KVM processor
+	Identifier: Intel64 Family 15 Model 6 Stepping 1
+	Microarchitecture: Netburst
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 2
+	Graphics card #0 name: Device
+	Graphics card #0 vendor: Vendor (0x1234)
+	Graphics card #0 VRAM (MB): 16.00
+	Graphics card #0 deviceId: 0x1111
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 3041.72
+	Virtual memory used (MB): 1069.15
+	Swap memory total (MB): 2048.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 0 total; 
+	Player Count: 3 / 20; [abs['sanshu69'/275, l='ServerLevel[world]', x=65.40, y=64.00, z=20.70], abs['Frikkish'/2926, l='ServerLevel[world]', x=-228.19, y=70.00, z=-276.87], abs['spjud'/2686, l='ServerLevel[world]', x=21.47, y=42.00, z=-366.48]]
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
