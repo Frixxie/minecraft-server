@@ -1,112 +1,72 @@
-[11:22:52] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:22:53] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:22:53] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:22:53] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:22:53] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:22:53] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:22:53] [main/INFO]: Reloading ResourceManager: Default
-[11:22:54] [Worker-Main-2/INFO]: Loaded 7 recipes
-[11:22:55] [Worker-Main-2/INFO]: Loaded 1137 advancements
-[11:22:57] [Server thread/INFO]: Starting minecraft server version 1.17
-[11:22:57] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[11:22:57] [Server thread/INFO]: Loading properties
-[11:22:57] [Server thread/INFO]: Default game type: SURVIVAL
-[11:22:57] [Server thread/INFO]: Generating keypair
-[11:22:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:22:57] [Server thread/INFO]: Using epoll channel type
-[11:22:57] [Server thread/INFO]: Preparing level "world"
-[11:22:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:23:06] [Worker-Main-2/INFO]: Preparing spawn area: 3%
-[11:23:07] [Server thread/INFO]: Time elapsed: 9873 ms
-[11:23:07] [Server thread/INFO]: Done (10.060s)! For help, type "help"
-[12:06:16] [User Authenticator #1/INFO]: UUID of player sanshu69 is 2b19cbdf-020f-41bd-beea-94b9ac7d4ed6
-[12:06:16] [Server thread/INFO]: com.mojang.authlib.GameProfile@7a242878[id=<null>,name=sanshu69,properties={},legacy=false] (/129.242.82.229:40304) lost connection: Disconnected
-[12:07:25] [User Authenticator #2/INFO]: UUID of player sanshu69 is 2b19cbdf-020f-41bd-beea-94b9ac7d4ed6
-[12:07:25] [Server thread/INFO]: sanshu69[/129.242.82.229:40408] logged in with entity id 275 at (169.5, 65.0, 50.5)
-[12:07:25] [Server thread/INFO]: sanshu69 joined the game
-[12:10:53] [Server thread/INFO]: sanshu69 was slain by Zombie
-[12:20:28] [Server thread/INFO]: sanshu69 has made the advancement [Stone Age]
-[12:22:20] [User Authenticator #3/INFO]: UUID of player spjud is ff0eb025-649d-467c-904e-4115513b2da8
-[12:22:20] [Server thread/INFO]: spjud[/10.239.155.97:51120] logged in with entity id 2686 at (326.48696103093187, 67.0, 65.99477000203265)
-[12:22:20] [Server thread/INFO]: spjud joined the game
-[12:23:00] [User Authenticator #4/INFO]: UUID of player Frikkish is 8685f8bc-7073-42ba-8906-384c6bed0eb8
-[12:23:00] [Server thread/INFO]: Frikkish[/129.242.91.195:45776] logged in with entity id 2926 at (324.30000001192093, 63.0, 46.066258101913384)
-[12:23:00] [Server thread/INFO]: Frikkish joined the game
-[12:23:24] [Server thread/INFO]: Frikkish has made the advancement [Stone Age]
-[12:23:27] [Server thread/INFO]: spjud has made the advancement [Stone Age]
-[12:23:37] [Server thread/INFO]: spjud has made the advancement [Getting an Upgrade]
-[12:24:37] [Server thread/INFO]: sanshu69 has made the advancement [Getting an Upgrade]
-[12:26:08] [Server thread/INFO]: spjud was slain by Spider
-[12:30:10] [Server thread/INFO]: spjud was slain by Zombie Villager
-[12:31:36] [Server thread/INFO]: Frikkish has made the advancement [Getting an Upgrade]
-[12:32:28] [Server thread/INFO]: <spjud> \kill sanshu69
-[12:35:54] [Server thread/INFO]: sanshu69 has made the advancement [Acquire Hardware]
-[12:36:10] [Server thread/INFO]: sanshu69 has made the advancement [Isn't It Iron Pick]
-[12:38:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3442ms or 68 ticks behind
-[12:39:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 46463ms or 929 ticks behind
-[12:39:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7623ms or 152 ticks behind
-[12:41:21] [Server thread/INFO]: spjud has made the advancement [Ice Bucket Challenge]
-[12:44:26] [IO-Worker-58/ERROR]: Caught exception in thread Thread[IO-Worker-58,5,main]
-java.lang.OutOfMemoryError: Java heap space
-[12:44:14] [Server thread/ERROR]: Encountered an unexpected exception
-java.lang.OutOfMemoryError: Java heap space
-	at cnd.a(SourceFile:228) ~[server.jar:?]
-	at cni.a(SourceFile:260) ~[server.jar:?]
-	at abe.a(SourceFile:685) ~[server.jar:?]
-	at abe.e(SourceFile:390) ~[server.jar:?]
-	at abe$$Lambda$4364/0x0000000801472d70.accept(Unknown Source) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
-	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at abe.a(SourceFile:387) ~[server.jar:?]
-	at abp.a(SourceFile:307) ~[server.jar:?]
-	at abr.a(SourceFile:706) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:587) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:852) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.x(SourceFile:692) [server.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:274) [server.jar:?]
-	at net.minecraft.server.MinecraftServer$$Lambda$3867/0x000000080136e810.run(Unknown Source) [server.jar:?]
-	at java.lang.Thread.run(Thread.java:831) [?:?]
-[12:44:27] [Server thread/ERROR]: This crash report has been saved to: /home/ubuntu/minecraft-server/./crash-reports/crash-2021-07-07_12.44.27-server.txt
-[12:44:27] [Server thread/INFO]: Stopping server
-[12:44:27] [Server thread/INFO]: Saving players
-[12:44:28] [Server thread/INFO]: sanshu69 lost connection: Internal Exception: java.lang.OutOfMemoryError: Java heap space
-[12:44:28] [Server thread/INFO]: sanshu69 left the game
-[12:44:29] [Server thread/INFO]: spjud lost connection: Internal Exception: java.lang.OutOfMemoryError: Java heap space
-[12:44:29] [Server thread/INFO]: spjud left the game
-[12:44:29] [Server thread/INFO]: Saving worlds
-[12:44:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:44:47] [Server thread/ERROR]: Exception stopping the server
-java.lang.OutOfMemoryError: Java heap space
-[12:44:49] [IO-Worker-61/ERROR]: Caught exception in thread Thread[IO-Worker-61,5,main]
-java.lang.OutOfMemoryError: Java heap space
-[12:44:49] [Worker-Main-2/ERROR]: Caught exception in thread Thread[Worker-Main-2,5,main]
-java.lang.OutOfMemoryError: Java heap space
-[12:45:05] [Server Watchdog/FATAL]: A single server tick took 60.00 seconds (should be max 0.05)
-[12:45:05] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
-[12:45:06] [Server Watchdog/ERROR]: This crash report has been saved to: /home/ubuntu/minecraft-server/./crash-reports/crash-2021-07-07_12.45.06-server.txt
+[15:15:01] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:15:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:15:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:15:02] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:15:02] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:15:02] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:15:02] [main/INFO]: Reloading ResourceManager: Default
+[15:15:03] [Worker-Main-4/INFO]: Loaded 7 recipes
+[15:15:03] [Worker-Main-4/INFO]: Loaded 1137 advancements
+[15:15:04] [Server thread/INFO]: Starting minecraft server version 1.17
+[15:15:04] [Server thread/INFO]: Loading properties
+[15:15:04] [Server thread/INFO]: Default game type: SURVIVAL
+[15:15:04] [Server thread/INFO]: Generating keypair
+[15:15:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:15:05] [Server thread/INFO]: Using epoll channel type
+[15:15:05] [Server thread/INFO]: Preparing level "world"
+[15:15:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:15:06] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:15:06] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:15:06] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:15:06] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:15:07] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:15:07] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:15:08] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[15:15:08] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 7%
+[15:15:13] [Worker-Main-6/INFO]: Preparing spawn area: 38%
+[15:15:13] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[15:15:13] [Server thread/INFO]: Time elapsed: 8621 ms
+[15:15:13] [Server thread/INFO]: Done (8.744s)! For help, type "help"
+[15:15:14] [User Authenticator #1/INFO]: UUID of player Frikkish is 8685f8bc-7073-42ba-8906-384c6bed0eb8
+[15:15:15] [Server thread/INFO]: Frikkish[/129.242.91.195:41276] logged in with entity id 316 at (-228.19202305206562, 70.0, -276.87179058946487)
+[15:15:15] [Server thread/INFO]: Frikkish joined the game
+[15:15:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3996ms or 79 ticks behind
+[15:15:25] [User Authenticator #2/INFO]: UUID of player spjud is ff0eb025-649d-467c-904e-4115513b2da8
+[15:15:25] [Server thread/INFO]: spjud[/129.242.19.6:56374] logged in with entity id 364 at (21.471139778391926, 42.0, -366.47540465223284)
+[15:15:25] [Server thread/INFO]: spjud joined the game
+[15:16:47] [User Authenticator #3/INFO]: UUID of player sanshu69 is 2b19cbdf-020f-41bd-beea-94b9ac7d4ed6
+[15:16:47] [Server thread/INFO]: sanshu69[/129.242.82.229:60478] logged in with entity id 1355 at (65.40206663845812, 64.0, 20.697913397780383)
+[15:16:47] [Server thread/INFO]: sanshu69 joined the game
+[15:19:45] [Server thread/INFO]: spjud lost connection: Disconnected
+[15:19:45] [Server thread/INFO]: spjud left the game
+[15:21:58] [User Authenticator #4/INFO]: UUID of player spjud is ff0eb025-649d-467c-904e-4115513b2da8
+[15:21:58] [Server thread/INFO]: spjud[/129.242.19.6:56708] logged in with entity id 3382 at (42.95507036823329, 41.0, -351.69999998807907)
+[15:21:58] [Server thread/INFO]: spjud joined the game
+[15:22:43] [Server thread/INFO]: spjud has made the advancement [Acquire Hardware]
+[15:23:07] [Server thread/INFO]: spjud has made the advancement [Isn't It Iron Pick]
+[15:26:22] [Server thread/INFO]: Frikkish was shot by Skeleton
+[15:26:51] [Server thread/WARN]: Frikkish moved too quickly! 474.68616339092125,12.0,251.85739834495243
+[15:29:38] [Server thread/INFO]: spjud has made the advancement [Diamonds!]
+[15:30:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[15:33:21] [Server thread/INFO]: Frikkish has made the advancement [Monster Hunter]
+[15:33:51] [Server thread/INFO]: Frikkish was shot by Skeleton
+[15:34:03] [Server thread/INFO]: Frikkish lost connection: Disconnected
+[15:34:03] [Server thread/INFO]: Frikkish left the game
+[15:34:04] [Server thread/INFO]: <sanshu69> kek
+[15:36:36] [Server thread/INFO]: spjud lost connection: Disconnected
+[15:36:36] [Server thread/INFO]: spjud left the game
+[15:47:44] [User Authenticator #5/INFO]: UUID of player Frikkish is 8685f8bc-7073-42ba-8906-384c6bed0eb8
+[15:47:44] [Server thread/INFO]: Frikkish[/129.242.91.195:42206] logged in with entity id 11620 at (215.14540055497568, 64.0, 81.093234155496)
+[15:47:44] [Server thread/INFO]: Frikkish joined the game
+[15:48:07] [Server thread/INFO]: sanshu69 lost connection: Disconnected
+[15:48:07] [Server thread/INFO]: sanshu69 left the game
+[15:48:33] [Server thread/INFO]: Frikkish lost connection: Disconnected
+[15:48:33] [Server thread/INFO]: Frikkish left the game
