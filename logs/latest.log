@@ -1,61 +1,72 @@
-[09:44:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09:44:32] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:44:32] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:44:32] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09:44:32] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09:44:32] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:44:32] [main/INFO]: Reloading ResourceManager: Default
-[09:44:33] [Worker-Main-12/INFO]: Loaded 7 recipes
-[09:44:34] [Worker-Main-12/INFO]: Loaded 1137 advancements
-[09:44:37] [Server thread/INFO]: Starting minecraft server version 1.17
-[09:44:37] [Server thread/INFO]: Loading properties
-[09:44:37] [Server thread/INFO]: Default game type: SURVIVAL
-[09:44:37] [Server thread/INFO]: Generating keypair
-[09:44:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:44:37] [Server thread/INFO]: Using epoll channel type
-[09:44:38] [Server thread/INFO]: Preparing level "world"
-[09:44:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:44:39] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[09:44:39] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[09:44:39] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[09:44:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[09:44:40] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[09:44:46] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[09:44:46] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[09:44:46] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[09:44:46] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[09:44:46] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[09:44:46] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[09:44:46] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[09:44:46] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[09:44:46] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[09:44:46] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[09:44:46] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[09:44:46] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[09:44:47] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[09:44:47] [Worker-Main-13/INFO]: Preparing spawn area: 16%
-[09:44:47] [Worker-Main-10/INFO]: Preparing spawn area: 43%
-[09:44:48] [Worker-Main-11/INFO]: Preparing spawn area: 84%
-[09:44:48] [Worker-Main-8/INFO]: Preparing spawn area: 85%
-[09:44:49] [Worker-Main-9/INFO]: Preparing spawn area: 89%
-[09:44:50] [Worker-Main-14/INFO]: Preparing spawn area: 89%
-[09:44:50] [Worker-Main-14/INFO]: Preparing spawn area: 96%
-[09:44:51] [Worker-Main-13/INFO]: Preparing spawn area: 99%
-[09:44:51] [Worker-Main-10/INFO]: Preparing spawn area: 99%
-[09:44:51] [Server thread/INFO]: Time elapsed: 13243 ms
-[09:44:51] [Server thread/INFO]: Done (13.492s)! For help, type "help"
-[09:51:25] [User Authenticator #1/INFO]: UUID of player Frikkish is 8685f8bc-7073-42ba-8906-384c6bed0eb8
-[09:51:25] [Server thread/INFO]: Frikkish[/172.17.0.1:58328] logged in with entity id 288 at (86.47334314222721, 67.0, 61.390953674408806)
-[09:51:25] [Server thread/INFO]: Frikkish joined the game
-[09:52:17] [Server thread/INFO]: Frikkish lost connection: Disconnected
-[09:52:17] [Server thread/INFO]: Frikkish left the game
-[11:00:17] [User Authenticator #2/INFO]: UUID of player Frikkish is 8685f8bc-7073-42ba-8906-384c6bed0eb8
-[11:00:17] [Server thread/INFO]: Frikkish[/172.17.0.1:37800] logged in with entity id 480 at (40.309410739769916, 65.0, 27.556756149153568)
-[11:00:17] [Server thread/INFO]: Frikkish joined the game
-[11:02:52] [Server thread/INFO]: Frikkish lost connection: Disconnected
-[11:02:52] [Server thread/INFO]: Frikkish left the game
-[13:17:12] [User Authenticator #3/INFO]: UUID of player Frikkish is 8685f8bc-7073-42ba-8906-384c6bed0eb8
-[13:17:12] [Server thread/INFO]: Frikkish[/172.17.0.1:41216] logged in with entity id 1141 at (-186.74941800110162, 71.0, 11.017520962780743)
-[13:17:12] [Server thread/INFO]: Frikkish joined the game
-[13:17:18] [Server thread/INFO]: Frikkish lost connection: Disconnected
-[13:17:18] [Server thread/INFO]: Frikkish left the game
+[15:15:01] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:15:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:15:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:15:02] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:15:02] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:15:02] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:15:02] [main/INFO]: Reloading ResourceManager: Default
+[15:15:03] [Worker-Main-4/INFO]: Loaded 7 recipes
+[15:15:03] [Worker-Main-4/INFO]: Loaded 1137 advancements
+[15:15:04] [Server thread/INFO]: Starting minecraft server version 1.17
+[15:15:04] [Server thread/INFO]: Loading properties
+[15:15:04] [Server thread/INFO]: Default game type: SURVIVAL
+[15:15:04] [Server thread/INFO]: Generating keypair
+[15:15:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:15:05] [Server thread/INFO]: Using epoll channel type
+[15:15:05] [Server thread/INFO]: Preparing level "world"
+[15:15:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:15:06] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:15:06] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:15:06] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:15:06] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:15:07] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:15:07] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:15:08] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[15:15:08] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[15:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 7%
+[15:15:13] [Worker-Main-6/INFO]: Preparing spawn area: 38%
+[15:15:13] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[15:15:13] [Server thread/INFO]: Time elapsed: 8621 ms
+[15:15:13] [Server thread/INFO]: Done (8.744s)! For help, type "help"
+[15:15:14] [User Authenticator #1/INFO]: UUID of player Frikkish is 8685f8bc-7073-42ba-8906-384c6bed0eb8
+[15:15:15] [Server thread/INFO]: Frikkish[/129.242.91.195:41276] logged in with entity id 316 at (-228.19202305206562, 70.0, -276.87179058946487)
+[15:15:15] [Server thread/INFO]: Frikkish joined the game
+[15:15:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3996ms or 79 ticks behind
+[15:15:25] [User Authenticator #2/INFO]: UUID of player spjud is ff0eb025-649d-467c-904e-4115513b2da8
+[15:15:25] [Server thread/INFO]: spjud[/129.242.19.6:56374] logged in with entity id 364 at (21.471139778391926, 42.0, -366.47540465223284)
+[15:15:25] [Server thread/INFO]: spjud joined the game
+[15:16:47] [User Authenticator #3/INFO]: UUID of player sanshu69 is 2b19cbdf-020f-41bd-beea-94b9ac7d4ed6
+[15:16:47] [Server thread/INFO]: sanshu69[/129.242.82.229:60478] logged in with entity id 1355 at (65.40206663845812, 64.0, 20.697913397780383)
+[15:16:47] [Server thread/INFO]: sanshu69 joined the game
+[15:19:45] [Server thread/INFO]: spjud lost connection: Disconnected
+[15:19:45] [Server thread/INFO]: spjud left the game
+[15:21:58] [User Authenticator #4/INFO]: UUID of player spjud is ff0eb025-649d-467c-904e-4115513b2da8
+[15:21:58] [Server thread/INFO]: spjud[/129.242.19.6:56708] logged in with entity id 3382 at (42.95507036823329, 41.0, -351.69999998807907)
+[15:21:58] [Server thread/INFO]: spjud joined the game
+[15:22:43] [Server thread/INFO]: spjud has made the advancement [Acquire Hardware]
+[15:23:07] [Server thread/INFO]: spjud has made the advancement [Isn't It Iron Pick]
+[15:26:22] [Server thread/INFO]: Frikkish was shot by Skeleton
+[15:26:51] [Server thread/WARN]: Frikkish moved too quickly! 474.68616339092125,12.0,251.85739834495243
+[15:29:38] [Server thread/INFO]: spjud has made the advancement [Diamonds!]
+[15:30:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[15:33:21] [Server thread/INFO]: Frikkish has made the advancement [Monster Hunter]
+[15:33:51] [Server thread/INFO]: Frikkish was shot by Skeleton
+[15:34:03] [Server thread/INFO]: Frikkish lost connection: Disconnected
+[15:34:03] [Server thread/INFO]: Frikkish left the game
+[15:34:04] [Server thread/INFO]: <sanshu69> kek
+[15:36:36] [Server thread/INFO]: spjud lost connection: Disconnected
+[15:36:36] [Server thread/INFO]: spjud left the game
+[15:47:44] [User Authenticator #5/INFO]: UUID of player Frikkish is 8685f8bc-7073-42ba-8906-384c6bed0eb8
+[15:47:44] [Server thread/INFO]: Frikkish[/129.242.91.195:42206] logged in with entity id 11620 at (215.14540055497568, 64.0, 81.093234155496)
+[15:47:44] [Server thread/INFO]: Frikkish joined the game
+[15:48:07] [Server thread/INFO]: sanshu69 lost connection: Disconnected
+[15:48:07] [Server thread/INFO]: sanshu69 left the game
+[15:48:33] [Server thread/INFO]: Frikkish lost connection: Disconnected
+[15:48:33] [Server thread/INFO]: Frikkish left the game
